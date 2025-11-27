@@ -1,0 +1,142 @@
+{
+  "Engineering": {
+    "context_aims_objectives": {
+      "weight": 2,
+      "description": "Clarity and framing of problem, context, aims, objectives, and challenge level."
+    },
+    "literature_review": {
+      "weight": 2,
+      "description": "Quality, depth, criticality, relevance, and completeness of literature review."
+    },
+    "methodological_approach": {
+      "weight": 1,
+      "description": "Appropriateness, justification, application, and clarity of methodology and lifecycle."
+    },
+    "requirements_specification": {
+      "weight": 3,
+      "description": "Completeness, justification, consistency, and analysis of system requirements."
+    },
+    "it_design_analysis": {
+      "weight": 3,
+      "description": "System design decisions, architectures, interfaces, and design rationale."
+    },
+    "implementation_discussion": {
+      "weight": 3,
+      "description": "Implementation decisions, trade-offs, algorithms, data structures, tools, command of techniques."
+    },
+    "verification_validation": {
+      "weight": 1,
+      "description": "Testing, debugging, verification, validation and justification of approaches."
+    },
+    "evaluation_against_requirements": {
+      "weight": 2,
+      "description": "Evaluation methods, evidence of meeting requirements, limitations, and discussion."
+    },
+    "project_planning_management": {
+      "weight": 1,
+      "description": "Project plan, adherence, progress evaluation, and project management methodology."
+    },
+    "solution_attributes": {
+      "weight": 5,
+      "description": "Quality of artefact including reliability, completeness, maintainability, timeliness."
+    },
+    "summary_conclusions_recommendations": {
+      "weight": 2,
+      "description": "Summary, conclusions, recommendations, originality, and alignment with evidence."
+    },
+    "structure_presentation": {
+      "weight": 2,
+      "description": "Report structure, clarity, readability, grammar, diagrams, tables, page layout."
+    },
+    "overall_understanding_reflection": {
+      "weight": 3,
+      "description": "Evidence of understanding, reflection, critical insight, awareness of limitations."
+    }
+  },
+
+  "Research": {
+    "context_aims_objectives": {
+      "weight": 2,
+      "description": "Research topic framing, aims, objectives, context, and challenge level."
+    },
+    "literature_review": {
+      "weight": 2,
+      "description": "Breadth, depth, relevance, critique, current sources, and credibility."
+    },
+    "research_questions_specification": {
+      "weight": 2,
+      "description": "Clarity, relevance, formalisation, measurability, justification of research questions."
+    },
+    "research_design": {
+      "weight": 3,
+      "description": "Design of approach, methodology, data collection, analysis processes, ethics."
+    },
+    "supporting_artefact_design_implementation": {
+      "weight": 2,
+      "description": "Design and implementation decisions for supporting artefact/software."
+    },
+    "results_presentation": {
+      "weight": 2,
+      "description": "Clarity and correctness of results, graphs, avoiding bias, context provided."
+    },
+    "results_evaluation": {
+      "weight": 3,
+      "description": "Interpretation of results, correctness, insight, meeting research questions."
+    },
+    "project_planning_management": {
+      "weight": 1,
+      "description": "Project planning, timeline, work schedule, progress evaluation."
+    },
+    "summary_conclusions_recommendations": {
+      "weight": 2,
+      "description": "Summary, conclusions, recommendations, insight, linkage to research questions."
+    },
+    "structure_presentation": {
+      "weight": 2,
+      "description": "Organisation, clarity, grammar, structure, diagrams, fluency."
+    },
+    "overall_understanding_novelty_reflection": {
+      "weight": 3,
+      "description": "Understanding, novelty, critical insight, awareness of limitations."
+    }
+  },
+
+  "Study": {
+    "context_aims_objectives": {
+      "weight": 2,
+      "description": "Framing of research topic, aims, objectives, challenge, context."
+    },
+    "literature_review": {
+      "weight": 3,
+      "description": "Quality, depth, relevance, critical insight, search strategy, originality."
+    },
+    "methodological_approach": {
+      "weight": 2,
+      "description": "Appropriateness, justification, and application of methodology used."
+    },
+    "primary_research_results": {
+      "weight": 3,
+      "description": "Design and execution of any primary research, data evaluation and interpretation."
+    },
+    "content_quality": {
+      "weight": 3,
+      "description": "Analysis level, originality, insight, structure, and breadth of topic coverage."
+    },
+    "project_planning_management": {
+      "weight": 1,
+      "description": "Planning, scheduling, progress tracking, resource management."
+    },
+    "summary_conclusions_recommendations": {
+      "weight": 2,
+      "description": "Appropriateness of conclusions, linkage to objectives, support from report."
+    },
+    "structure_presentation": {
+      "weight": 2,
+      "description": "Structure, fluency, clarity, grammar, diagrams, presentation quality."
+    },
+    "overall_understanding_reflection": {
+      "weight": 3,
+      "description": "Understanding, analysis, critical reflection, awareness of strengths/weaknesses."
+    }
+  }
+}
