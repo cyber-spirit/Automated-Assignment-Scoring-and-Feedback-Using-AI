@@ -1,3 +1,11 @@
+import json
+from azure.ai.projects import AIProjectClient
+import pdfplumber
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer # type: ignore[import]
+from reportlab.lib.styles import getSampleStyleSheet  # type: ignore[import]
+from reportlab.lib.units import inch # type: ignore[import]
+from azure.identity import DefaultAzureCredential
+
 #System Prompt
 SYSTEM_PROMPT = """
 You are an automated academic marker for final-year undergraduate projects.  
@@ -164,29 +172,18 @@ END OF SYSTEM PROMPT
 ====================================================================
 """
 
-import json
-from azure.ai.projects import AIProjectClient
-from azure.ai.projects.models import PromptAgentDefinition
-from azure.core.credentials import AzureKeyCredential
-import pdfplumber
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer # type: ignore[import]
-from reportlab.lib.styles import getSampleStyleSheet  # type: ignore[import]
-from reportlab.lib.units import inch # type: ignore[import]
-from azure.identity import DefaultAzureCredential
-
-myEndpoint = "https://fypattemptzero-resource.services.ai.azure.com/api/projects/fypattemptzero"
+MY_ENDPOINT = "https://fypattemptzero-resource.services.ai.azure.com/api/projects/fypattemptzero"
 
 project_client = AIProjectClient(
-    endpoint=myEndpoint,
+    endpoint=MY_ENDPOINT,
     credential=DefaultAzureCredential(),
 )
 
-myAgent = "FYPMarkerAgentFineTrainAttempt1"
+MY_AGENT = "FYPMarkerAgentFineTrainAttempt1"
 
 # Get an existing agent
-agent = project_client.agents.get(agent_name=myAgent)
+agent = project_client.agents.get(agent_name=MY_AGENT)
 print(f"Retrieved agent: {agent.name}")
-
 openai_client = project_client.get_openai_client()
 #===========================================================================================#
 #Get data from assignment
