@@ -81,7 +81,6 @@ def create_feedback_pdf(json_data, pdf_path):
         story.append(Paragraph(f"<b>Transparency:</b> {info['transparency']}", styles['Normal']))
         story.append(Paragraph(f"<b>Reasoning Summary:</b> {info['reasoning_summary']}", styles['Normal']))
 
-        # Confidence is a nested object
         conf = info.get("confidence", {})
         story.append(Paragraph(
             f"<b>Confidence:</b> {conf.get('score', 'N/A')} – {conf.get('explanation', '')}",
