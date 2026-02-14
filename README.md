@@ -1,2 +1,2 @@
-# Automated Assignment Scoring and Feedback via Azure OpenAI
+# Automated Assignment Scoring and Feedback Using AI
 
