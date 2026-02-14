@@ -1,4 +1,4 @@
-#New attempy by using Ollama
+#New attempt by using Ollama
 #This generates a response that also shows the streaming of the model 'thinking'.
 import requests
 import json
