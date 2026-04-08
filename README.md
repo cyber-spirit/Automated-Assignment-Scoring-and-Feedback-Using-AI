@@ -6,7 +6,7 @@ This project was created for my Final Year Project of my BSc in Computer Science
 
 ## Requirements:
 - At least Python 3.8
-- Ollama installed locally (can be done from this  [link:](https://ollama.com/)
+- Ollama installed locally (can be done from this  [link.](https://ollama.com/)
 - The Deepseek R1:8b model must be available in your local Ollama environment.
     - Other models can be used (the model variable in the grade_with_ollama_streaming function must be changed for this) however, Deepseek r1:8b is what was used for this project.
     - The model can be downloaded directly from Ollama by typing: "ollama pull deepseek/r18b" in the terminal or the model file can be downloaded from the Ollama model hub and other sources.
