@@ -1,4 +1,5 @@
 # Automated Assignment Scoring Using Artificial Intelligence
+#### Created by Lewis Kennedy 
 
 ## Project Description:
 This project was created for my Final Year Project of my BSc in Computer Science at the University Of Portsmouth.
@@ -35,6 +36,6 @@ The project includes a testing file called "automatedMarker_test.py". This uses 
 
 "Pytest -vv" is recommended to be used to see more detail about passed and failed tests.
 
-### Limitations:
+## Limitations:
 - Only one student report can be marked at a time.
 - The estimations for plagarism and AI usage given in the marked report are estimations from the model being used and are not from a dedicated detection tool.
