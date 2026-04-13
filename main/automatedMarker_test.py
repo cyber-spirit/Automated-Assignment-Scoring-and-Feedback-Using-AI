@@ -1,13 +1,13 @@
 """
 iteration4_test.py
 
-Unit tests for the AI automated assignment marking system.
+Unit tests for the main python file.
 
 These tests verify:
-1. CSV mark schemes load correctly
-2. PDF text extraction works
-3. Ollama grading function processes streamed responses
-4. PDF report generation works
+1. csv mark schemes load correctly
+2. pdf text extraction works
+3. Ollama grading function processes streamed responses correctly
+4. pdf report generation works
 
 External services such as the Ollama API, PDF reader, and PDF writer
 are mocked to ensure tests run quickly and deterministically.
