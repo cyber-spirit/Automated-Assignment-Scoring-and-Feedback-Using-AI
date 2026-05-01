@@ -31,6 +31,8 @@ Additionally, if you are using your own mark schemes, the csv must have this str
 3. Run the main file automatedFYPMarker.py. This can be done in an IDE or from the terminal useing "python automatedFYPMarker.py".
 4. The code will output to the terminal as it goes through each step of the process. Extracting text, calling the model and recieving the response. The model's streaming response can also be seen in the terminal. When the code is finished, it will ouput that response as a pdf file called: "markedReport.pdf".
 
+Please ensure the automatedFYPMarker.py file is running from the main folder so the program can see the CSV and PDF files.
+
 ## Testing:
 The project includes a testing file called "automatedMarker_test.py". This uses Pytest to run Unit tests for all the functions in "automatedFYPMarker.py". The tests can be run by typing "pytest" in the terminal. 
 
